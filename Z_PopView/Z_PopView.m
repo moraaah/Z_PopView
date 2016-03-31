@@ -13,7 +13,7 @@
 
 @implementation Z_PopView
 
-// 初始化传入items
+// 根据传入的items初始化
 - (instancetype)initWithArray:(NSArray *)array
 {
     self = [[Z_PopView alloc] initWithFrame:CGRectMake(0, 0, ZShowViewWidh, ZShowViewBtnHeight*array.count)];

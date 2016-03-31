@@ -15,11 +15,11 @@ typedef NS_ENUM(NSInteger, ZShowPosition) {
     ZShowRight   = 3,
 }; //显示的位置
 
-typedef void(^ChooseBlock)(NSString *choose); //选择block回调
+typedef void(^ChooseBlock)(NSString *choose); //选择item后的block回调
 
 @interface Z_PopView : UIView
 
-@property (nonatomic, copy) ChooseBlock chooseBlock;  //展示
+@property (nonatomic, copy) ChooseBlock chooseBlock;  //block
 
 // 自定义选择项并初始化
 - (instancetype)initWithArray:(NSArray *)array;
