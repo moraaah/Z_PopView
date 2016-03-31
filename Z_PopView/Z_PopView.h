@@ -13,9 +13,9 @@ typedef NS_ENUM(NSInteger, ZShowPosition) {
     ZShowLeft      = 1,
     ZShowBottom       = 2,
     ZShowRight   = 3,
-};
+}; //显示的位置
 
-typedef void(^ChooseBlock)(NSString *choose);
+typedef void(^ChooseBlock)(NSString *choose); //选择block回调
 
 @interface Z_PopView : UIView
 

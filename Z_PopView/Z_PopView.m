@@ -13,6 +13,7 @@
 
 @implementation Z_PopView
 
+// 初始化传入items
 - (instancetype)initWithArray:(NSArray *)array
 {
     self = [[Z_PopView alloc] initWithFrame:CGRectMake(0, 0, ZShowViewWidh, ZShowViewBtnHeight*array.count)];
@@ -21,7 +22,7 @@
     return self;
 }
 
-// 创建items
+// 根据items创建视图
 - (void)createSubViews:(NSArray *)array
 {
     for (int i = 0; i < array.count; i ++) {
@@ -72,6 +73,7 @@
     }
 }
 
+// 添加到指定视图上
 - (void)add_self:(UIView *)view
 {
     [view addSubview:self];
