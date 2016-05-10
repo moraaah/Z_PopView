@@ -11,8 +11,8 @@
 typedef NS_ENUM(NSInteger, ZShowPosition) {
     ZShowTop       = 0,
     ZShowLeft      = 1,
-    ZShowBottom       = 2,
-    ZShowRight   = 3,
+    ZShowBottom    = 2,
+    ZShowRight     = 3,
 }; //显示的位置
 
 typedef void(^ChooseBlock)(NSString *choose); //选择item后的block回调

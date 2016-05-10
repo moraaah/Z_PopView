@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264249111CB356A100916644 /* UIButton+UIButtonImageWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 264249101CB356A100916644 /* UIButton+UIButtonImageWithLabel.m */; };
 		2647FA2B1CA3B52800D9E2CF /* ZTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2647FA2A1CA3B52800D9E2CF /* ZTextAttachment.m */; };
 		2647FA2D1CA3B57400D9E2CF /* good.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2647FA2C1CA3B57400D9E2CF /* good.jpg */; };
 		264CB4CB1CA28AA800B35030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264CB4CA1CA28AA800B35030 /* main.m */; };
@@ -18,6 +19,8 @@
 		264CB4E41CA28AA800B35030 /* Z_PopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264CB4E31CA28AA800B35030 /* Z_PopViewTests.m */; };
 		264CB4EF1CA28AA800B35030 /* Z_PopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264CB4EE1CA28AA800B35030 /* Z_PopViewUITests.m */; };
 		264CB4FE1CA28AEF00B35030 /* Z_PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264CB4FD1CA28AEF00B35030 /* Z_PopView.m */; };
+		2676B2211CAE782700FF3A94 /* UIView+LDExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2676B2201CAE782700FF3A94 /* UIView+LDExtention.m */; };
+		26E402901CCA06260023D136 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E4028F1CCA06260023D136 /* NSDictionary+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2642490F1CB356A100916644 /* UIButton+UIButtonImageWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLabel.h"; sourceTree = "<group>"; };
+		264249101CB356A100916644 /* UIButton+UIButtonImageWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLabel.m"; sourceTree = "<group>"; };
 		2647FA291CA3B52800D9E2CF /* ZTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTextAttachment.h; sourceTree = "<group>"; };
 		2647FA2A1CA3B52800D9E2CF /* ZTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTextAttachment.m; sourceTree = "<group>"; };
 		2647FA2C1CA3B57400D9E2CF /* good.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good.jpg; sourceTree = "<group>"; };
@@ -59,6 +64,10 @@
 		264CB4F01CA28AA800B35030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		264CB4FC1CA28AEF00B35030 /* Z_PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z_PopView.h; sourceTree = "<group>"; };
 		264CB4FD1CA28AEF00B35030 /* Z_PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z_PopView.m; sourceTree = "<group>"; };
+		2676B21F1CAE782700FF3A94 /* UIView+LDExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LDExtention.h"; sourceTree = "<group>"; };
+		2676B2201CAE782700FF3A94 /* UIView+LDExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LDExtention.m"; sourceTree = "<group>"; };
+		26E4028E1CCA06260023D136 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		26E4028F1CCA06260023D136 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				264CB4D01CA28AA800B35030 /* ViewController.m */,
 				264CB4FC1CA28AEF00B35030 /* Z_PopView.h */,
 				264CB4FD1CA28AEF00B35030 /* Z_PopView.m */,
+				2676B21F1CAE782700FF3A94 /* UIView+LDExtention.h */,
+				2676B2201CAE782700FF3A94 /* UIView+LDExtention.m */,
 				2647FA291CA3B52800D9E2CF /* ZTextAttachment.h */,
 				2647FA2A1CA3B52800D9E2CF /* ZTextAttachment.m */,
+				2642490F1CB356A100916644 /* UIButton+UIButtonImageWithLabel.h */,
+				264249101CB356A100916644 /* UIButton+UIButtonImageWithLabel.m */,
+				26E4028E1CCA06260023D136 /* NSDictionary+Extension.h */,
+				26E4028F1CCA06260023D136 /* NSDictionary+Extension.m */,
 				2647FA2C1CA3B57400D9E2CF /* good.jpg */,
 				264CB4D21CA28AA800B35030 /* Main.storyboard */,
 				264CB4D51CA28AA800B35030 /* Assets.xcassets */,
@@ -286,8 +301,11 @@
 			files = (
 				264CB4D11CA28AA800B35030 /* ViewController.m in Sources */,
 				2647FA2B1CA3B52800D9E2CF /* ZTextAttachment.m in Sources */,
+				26E402901CCA06260023D136 /* NSDictionary+Extension.m in Sources */,
 				264CB4FE1CA28AEF00B35030 /* Z_PopView.m in Sources */,
+				2676B2211CAE782700FF3A94 /* UIView+LDExtention.m in Sources */,
 				264CB4CE1CA28AA800B35030 /* AppDelegate.m in Sources */,
+				264249111CB356A100916644 /* UIButton+UIButtonImageWithLabel.m in Sources */,
 				264CB4CB1CA28AA800B35030 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
